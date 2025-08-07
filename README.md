@@ -96,7 +96,7 @@ MVCBirdManagementSystem/
 ├── appsettings.json
 └── MVCBirdManagementSystem.sln
 ---
-### Future Improvements
+## Future Improvements
 Implement user authentication and role-based authorization.
 
 Add pagination for bird listings.
