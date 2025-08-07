@@ -1,0 +1,20 @@
+﻿@model mvcBirds.Models.Birder
+<h1>Add new Birder</h1>
+
+<form asp-action="AddBirder" method="post">
+	<div class="form-group">
+		<label asp-for="Birder_Name" class="control-label"></label>
+		<input asp-for="Birder_Name" class="form-control" />
+	</div>
+	<div class="form-group">
+		<label asp-for="email" class="control-label"></label>
+		<input asp-for="email" class="form-control" />
+	</div>
+	<div class="form-group">
+		<label asp-for="password" class="control-label"></label>
+		<input asp-for="password" class="form-control" />
+	</div>
+	<button type="submit" class="btn btn-primary">Save</button>
+	<a asp-action="Index">Back to List</a>
+</form>
+
